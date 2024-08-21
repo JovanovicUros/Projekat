@@ -1,0 +1,158 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg {
+    background-image: url('slike/pozadina.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.login-box, .menu-form-card, .menu-list-card {
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Lalezar', cursive;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-control::placeholder {
+    color: #888;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    font-family: 'Lalezar', cursive;
+    font-size: 1.5rem;
+}
+
+.hero {
+    background-image: url('slike/pozadina.jpg'); /* Adjust the path if necessary */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero .container {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-family: 'Lalezar', cursive;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+a.nav-link {
+    color: #000;
+}
+
+a.nav-link:hover {
+    color: #007bff;
+}
+
+.menu-section, .order-section {
+    background-color: #3E4E62;
+    padding: 50px 0;
+    color: white;
+}
+
+.menu-card, .order-card {
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.menu-item-card, .order-card .form-check-label {
+    color: white;
+}
+
+.menu-item-card {
+    background-color: #2a2a2a;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.menu-item-card h3, .menu-item-content h3 {
+    font-family: 'Lalezar', cursive;
+    margin-bottom: 10px;
+}
+
+.menu-item-card p, .menu-item-content p {
+    margin-bottom: 5px;
+}
+
+.menu-item-card .cena, .menu-item-content .cena {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+}
+
+.menu-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.menu-item-content {
+    flex-grow: 1;
+}
+
+.menu-item-actions {
+    display: flex;
+    gap: 10px;
+}
